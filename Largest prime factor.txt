@@ -1,0 +1,26 @@
+package main
+
+import (
+	"fmt"
+	"os"
+)
+
+func main() {
+	sum := 1
+	fmt.Print("Enter a number: ")
+	var x int
+	fmt.Fscan(os.Stdin, &x)
+	i := 2
+	for i<x {
+		i++
+		if x%i == 0 {
+			x = x / i
+			sum = sum * i
+			fmt.Println(i)
+		}
+		if x<i{
+			fmt.Println("Largest prime factor: ", i)
+		}
+	}
+	fmt.Println("multiply together the amount of numbers we get: ", sum)
+}
