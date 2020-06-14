@@ -10,7 +10,9 @@ func main() {
 	fmt.Print("Enter a number: ")
 	var x int
 	fmt.Fscan(os.Stdin, &x)
-	for i := 2;i<x;i++{
+	i := 2
+	for i<x{
+	i++
 		if x%i == 0 {
 			x = x / i
 			sum = sum * i
