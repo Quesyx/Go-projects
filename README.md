@@ -7,11 +7,10 @@ Used:
  <body>
    <hr>
    <ul>
-    <p><a name="GO"></a></p>
-     <li><a href="#GO">https://golang.org/</a></li>
-     <li><a href="URL">http://www.gorillatoolkit.org/</a></li>
-     <li><a href="URL">https://jwt.io/</a></li>
-     <li><a href="URL">https://www.docker.com/</a></li>
+     <li><a href="https://golang.org/">GO</a></li>
+     <li><a href="http://www.gorillatoolkit.org/">Gorilla</a></li>
+     <li><a href="https://jwt.io/">JWT</a></li>
+     <li><a href="https://www.docker.com/">docker</a></li>
    </ul>
    <hr>
  </body>
