@@ -20,7 +20,7 @@ export CGO_ENABLED=0
 export GOARCH="amd64"
 export GOOS="linux"
 export GO111MODULE=on
-export GOFLAGS="-mod=vendor"
+export GOFLAGS="-mod=readonly"
 
 go install                                                      \
     -installsuffix "static"                                     \
